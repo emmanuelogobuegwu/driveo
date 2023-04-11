@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    color: white;
+    /* font-family: 'inter';
+    background-image: url(/image/snow\ road.png);
+    background-repeat: no-repeat;
+    height: 620px;
+    background-size: 100%;
+    image-resolution: 100%;
+    color: white; */
+}
+
+#top{
+    display: flex;
+   
+    border-bottom-color: white;
+    box-shadow: 1px 1px;
+}
+h1{
+    margin-left: 7%;
+}
+nav{
+    margin-left: 20%;
+    padding-top: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+    
+    
+}
+nav ul{
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+p{
+    margin-left: 280px;
+    padding-top: 18px;
+}
+#a{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#aa{
+    font-size: 180px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 1;
+    text-transform: capitalize;
+}
+
+#bmw{
+    margin-top: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 60%;
+   z-index: 2;
+   
+}
+#pd{
+   
+    font-size: 90px;
+    margin-left: 0px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+    text-transform: capitalize;
+   font-weight: 800;
+}
+#get{
+   text-align: center;
+   margin: 0;
+   font-size: 20px;
+}
+#fom{
+    margin-top: 40px;
+margin-left: 600px;
+    align-content: center;
+    
+}
+#how{
+   font-size: 20px;
+   text-align: center;
+   width: 19%;
+   height: 50px;
+   border: 3px solid rgb(50, 128, 236);
+  box-shadow: 7px 4px white;
+}
+#sell{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: rgb(50, 128, 236);
+    border: 1px solid rgb(50, 128, 236);
+   box-shadow: 7px 4px white;
+}
+@media screen and (max-width: 820px){
+    #aa{
+        font-size: 100px;
+    }
+    p{
+        margin-left: 0;
+    }
+    #get{
+        font-size: 10px;
+    }
+    #pd{
+        font-size: 30px;
+    }
+    #fom{
+        margin-left: 0;
+    }
+    #bmw{
+        width: ;
+    }
+    nav ul li{
+    margin: 0;
+    }
+}
